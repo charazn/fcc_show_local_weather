@@ -1,0 +1,50 @@
+html {
+  font-size: 1rem;
+}
+
+body {
+  background: url(https://dl.dropboxusercontent.com/s/1gd0tvewn5ognve/stunning_lake_landscape_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.box {
+  margin-top: 2.5rem;
+}
+
+#cityLocation, #weatherIcon, #weatherDescription, #temperature, #pressure, #humidity, #windspeed {
+  padding: 1rem;
+  display: inline-block;
+}
+
+#weatherIcon, #weatherDescription {
+  vertical-align: middle;
+}
+
+.weatherInfo {
+  margin-top: 1.5rem;
+}
+
+#cityLocation {
+  font-size: 3rem;
+  padding-bottom: 0;
+}
+
+#weatherDescription {
+  font-size: 2.5rem;
+}
+
+.temperature-text, .pressure-text, .humidity-text, .windspeed-text {
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+.btn, .btn-lg, .btn-default  {
+  background-color: transparent;
+  color: white;
+}
+
+.btn:hover, .btn-lg:hover, .btn-default:hover {
+  background-color: transparent;
+  color: white;
+}
